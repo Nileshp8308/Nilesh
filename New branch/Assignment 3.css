@@ -1,0 +1,79 @@
+.one{
+    border: 2px solid red;
+    width: 200px;
+    top: 50px;
+}
+.two{
+    border: 2px dashed blue;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: 100px;
+}
+.three{
+    position: absolute;
+    border: 2px dotted orange;
+    width: 200px;
+    height: 200px;
+    left: 95px;
+    top: 95px;
+}
+.four{
+    position: fixed;
+    color: brown;
+    background-color: burlywood;
+    width: 140px;
+    top: 600px;
+    left: 40px;
+}
+.five{
+    position: sticky;
+    color: red;
+    background-color: yellow;
+    width: 150px;
+    top: 10px;
+    left: 80px;
+}
+.six{
+    border: 2px inset aqua;
+    overflow: auto;
+    width: 400px;
+    height: 200px;
+}
+.display1{
+    position: relative;
+    top: 225px;
+}
+.none{
+    display: none;
+}
+.display1:hover .none{
+    display: inline;
+    color: brown;
+    padding: 10px;
+    border: 2px dashed black;
+    background-color: aqua;
+    width:200px;
+}
+.block{
+    display: block;
+    color: chartreuse;
+    background-color: antiquewhite;
+}
+.inline{
+    display:inline ;
+    color: blueviolet;
+    background-color: azure;
+    text-decoration: underline dotted;
+}
+.inlineblock{
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: red;
+    text-decoration: overline underline double;
+    text-shadow: 2px 2px 3px black;
+
+
+}
