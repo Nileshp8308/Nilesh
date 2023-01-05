@@ -1841,5 +1841,12 @@ main={
     });
     console.log(a)
     console.log(main.data[0].weather.code)
+
+    let g=[]
+    main.data.map(element=>{
+        a.push(element.ozone)
+    })
+    console.log(a)
+   
    
  
